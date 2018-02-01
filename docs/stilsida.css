@@ -1,0 +1,59 @@
+body {
+	max-width: 50em; /*1em = 16px. 50em = 800px retina skjár: 50em = 1600px*/
+	font-family: "Trebuchet MS", helvetica, arial, sans-serif;
+	margin: 1em auto; /* 1em = 16px 1em top+bottom - left+right*/
+	padding: 1em; 
+	border: 1px solid blue;
+/*	background-color: black;
+	color:white; */
+}
+h1 {
+	color:blue;
+	text-align: center;
+	font-variant: small-caps;
+	background-color: yellow; 
+}
+h2 {
+	color: #800; /* #88 00 00  = RGB rgb(128, 0, 0) */
+}
+a {
+	color: green;
+	font-style: italic;
+}
+a:hover {
+	background: yellow;
+}
+.menu {
+	background-color: #180162;
+}
+.menu a {
+	display: block;
+	color: #eef;
+	text-decoration: none;
+}
+.menu a:hover {
+	background-color: #f00;
+}
+.menu a:active{
+	background-color: #ff0;
+}
+.graenn{
+	color: green;
+}
+.lennon p {
+	color: blue;
+	font-style: italic;
+
+}
+.lennon strong {
+	color: red;
+} 
+.elvis {
+	color: purple;
+}
+em {
+	color: red;
+}
+.centre {
+	text-align: center;
+}
